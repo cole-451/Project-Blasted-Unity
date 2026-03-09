@@ -1,0 +1,674 @@
+fileFormatVersion: 2
+guid: 2e06038ce09cab24680faa968fccc80e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 861607213053590994
+    second: Neely_RPG_Player_COMPLETE_SHEET_0
+  - first:
+      213: 1505631070562098357
+    second: Neely_RPG_Player_COMPLETE_SHEET_1
+  - first:
+      213: -5296280387526566319
+    second: Neely_RPG_Player_COMPLETE_SHEET_2
+  - first:
+      213: 3546945260162741611
+    second: Neely_RPG_Player_COMPLETE_SHEET_3
+  - first:
+      213: -8379542063054277915
+    second: Neely_RPG_Player_COMPLETE_SHEET_4
+  - first:
+      213: -7096118919067819569
+    second: Neely_RPG_Player_COMPLETE_SHEET_5
+  - first:
+      213: 1708045887692364498
+    second: Neely_RPG_Player_COMPLETE_SHEET_6
+  - first:
+      213: -4137221336766473168
+    second: Neely_RPG_Player_COMPLETE_SHEET_7
+  - first:
+      213: -59196887876342666
+    second: Neely_RPG_Player_COMPLETE_SHEET_8
+  - first:
+      213: -7360710943074949282
+    second: Neely_RPG_Player_COMPLETE_SHEET_9
+  - first:
+      213: 7668075776375331466
+    second: Neely_RPG_Player_COMPLETE_SHEET_10
+  - first:
+      213: -2843410193204298610
+    second: Neely_RPG_Player_COMPLETE_SHEET_11
+  - first:
+      213: -2465194137954774379
+    second: Neely_RPG_Player_COMPLETE_SHEET_12
+  - first:
+      213: -7031944085054915427
+    second: Neely_RPG_Player_COMPLETE_SHEET_13
+  - first:
+      213: -764515706077334003
+    second: Neely_RPG_Player_COMPLETE_SHEET_14
+  - first:
+      213: 4608079256326114777
+    second: Neely_RPG_Player_COMPLETE_SHEET_15
+  - first:
+      213: 7748103000319251611
+    second: Neely_RPG_Player_COMPLETE_SHEET_16
+  - first:
+      213: -4570972367233397772
+    second: Neely_RPG_Player_COMPLETE_SHEET_17
+  - first:
+      213: 6455631719566168339
+    second: Neely_RPG_Player_COMPLETE_SHEET_18
+  - first:
+      213: -3059738156602464557
+    second: Neely_RPG_Player_COMPLETE_SHEET_19
+  - first:
+      213: 5073548675519515952
+    second: Neely_RPG_Player_COMPLETE_SHEET_20
+  - first:
+      213: -6196940608910906516
+    second: Neely_RPG_Player_COMPLETE_SHEET_21
+  - first:
+      213: -6225374070248724517
+    second: Neely_RPG_Player_COMPLETE_SHEET_22
+  - first:
+      213: 2633735241336516570
+    second: Neely_RPG_Player_COMPLETE_SHEET_23
+  - first:
+      213: 7600008716729482580
+    second: Neely_RPG_Player_COMPLETE_SHEET_24
+  - first:
+      213: 6323012313684487103
+    second: Neely_RPG_Player_COMPLETE_SHEET_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_0
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2055
+        width: 290
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd39fdf13b05fb00800000000000000
+      internalID: 861607213053590994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_1
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 2055
+        width: 290
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc15a34b7315e410800000000000000
+      internalID: 1505631070562098357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_2
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 2055
+        width: 226
+        height: 505
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e5c966c05df76b0800000000000000
+      internalID: -5296280387526566319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_3
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 2055
+        width: 306
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6571cdebe7493130800000000000000
+      internalID: 3546945260162741611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1543
+        width: 162
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2b43fe3e2e5bb80800000000000000
+      internalID: -8379542063054277915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_5
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1543
+        width: 290
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1a801a075858d90800000000000000
+      internalID: -7096118919067819569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_6
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 1543
+        width: 458
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da58fb6fa234b710800000000000000
+      internalID: 1708045887692364498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_7
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 1543
+        width: 258
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c1ed83d13a596c0800000000000000
+      internalID: -4137221336766473168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1055
+        width: 554
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c625e7eb0bd2ff0800000000000000
+      internalID: -59196887876342666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_9
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1031
+        width: 258
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57efaf556089d990800000000000000
+      internalID: -7360710943074949282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_10
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1031
+        width: 522
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a11a99a4a7a6a60800000000000000
+      internalID: 7668075776375331466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_11
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1039
+        width: 242
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c355b8e7d2a88d0800000000000000
+      internalID: -2843410193204298610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_12
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 519
+        width: 282
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59294d02efed9cdd0800000000000000
+      internalID: -2465194137954774379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_13
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 519
+        width: 370
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c74e98c14896e90800000000000000
+      internalID: -7031944085054915427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_14
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 519
+        width: 298
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06bd021405e365f0800000000000000
+      internalID: -764515706077334003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_15
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 519
+        width: 354
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd0a224baf23ff30800000000000000
+      internalID: 4608079256326114777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_22
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 71
+        width: 546
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7a5ec34470b99a0800000000000000
+      internalID: -6225374070248724517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_23
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 15
+        width: 570
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf6a447f38ec8420800000000000000
+      internalID: 2633735241336516570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_24
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 15
+        width: 458
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d788a49a7a87960800000000000000
+      internalID: 7600008716729482580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neely_RPG_Player_COMPLETE_SHEET_25
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 7
+        width: 250
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbba593d23adfb750800000000000000
+      internalID: 6323012313684487103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 06bcb8983500ae24bbda56f71df942c9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Neely_RPG_Player_COMPLETE_SHEET_0: 861607213053590994
+      Neely_RPG_Player_COMPLETE_SHEET_1: 1505631070562098357
+      Neely_RPG_Player_COMPLETE_SHEET_10: 7668075776375331466
+      Neely_RPG_Player_COMPLETE_SHEET_11: -2843410193204298610
+      Neely_RPG_Player_COMPLETE_SHEET_12: -2465194137954774379
+      Neely_RPG_Player_COMPLETE_SHEET_13: -7031944085054915427
+      Neely_RPG_Player_COMPLETE_SHEET_14: -764515706077334003
+      Neely_RPG_Player_COMPLETE_SHEET_15: 4608079256326114777
+      Neely_RPG_Player_COMPLETE_SHEET_16: 7748103000319251611
+      Neely_RPG_Player_COMPLETE_SHEET_17: -4570972367233397772
+      Neely_RPG_Player_COMPLETE_SHEET_18: 6455631719566168339
+      Neely_RPG_Player_COMPLETE_SHEET_19: -3059738156602464557
+      Neely_RPG_Player_COMPLETE_SHEET_2: -5296280387526566319
+      Neely_RPG_Player_COMPLETE_SHEET_20: 5073548675519515952
+      Neely_RPG_Player_COMPLETE_SHEET_21: -6196940608910906516
+      Neely_RPG_Player_COMPLETE_SHEET_22: -6225374070248724517
+      Neely_RPG_Player_COMPLETE_SHEET_23: 2633735241336516570
+      Neely_RPG_Player_COMPLETE_SHEET_24: 7600008716729482580
+      Neely_RPG_Player_COMPLETE_SHEET_25: 6323012313684487103
+      Neely_RPG_Player_COMPLETE_SHEET_3: 3546945260162741611
+      Neely_RPG_Player_COMPLETE_SHEET_4: -8379542063054277915
+      Neely_RPG_Player_COMPLETE_SHEET_5: -7096118919067819569
+      Neely_RPG_Player_COMPLETE_SHEET_6: 1708045887692364498
+      Neely_RPG_Player_COMPLETE_SHEET_7: -4137221336766473168
+      Neely_RPG_Player_COMPLETE_SHEET_8: -59196887876342666
+      Neely_RPG_Player_COMPLETE_SHEET_9: -7360710943074949282
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
