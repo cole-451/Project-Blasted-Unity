@@ -39,7 +39,7 @@ public class CharacterPlayer2D : Character2D
 
 	private void Update()
 	{
-		//animator.SetBool("OnGround", characterController.onGround);
+		animator.SetBool("OnGround", characterController.onGround);
 	}
 
 	protected override void FixedUpdate()
@@ -60,8 +60,7 @@ public class CharacterPlayer2D : Character2D
 	void OnAttack(InputAction.CallbackContext ctx)
 	{
 		animator.SetTrigger("Punch");
-		PunchCooldownCR();
-        animator.ResetTrigger("Punch");
+		StartCoroutine(PunchCooldownCR());
 
     }
 
@@ -72,11 +71,14 @@ public class CharacterPlayer2D : Character2D
 
 	IEnumerator PunchCooldownCR()
 	{
-		yield return new WaitForSeconds(1.5f);
-	}
-	IEnumerator KickCooldownCR()
+		yield return new WaitForSeconds(2.5f);
+        animator.ResetTrigger("Punch");
+
+        //make a bool to hold the combo
+    }
+    IEnumerator KickCooldownCR()
 	{
-		yield return new WaitForSeconds(1.5f);
+		yield return new WaitForSeconds(2.5f);
 		animator.ResetTrigger("Kick");
 	}
 
