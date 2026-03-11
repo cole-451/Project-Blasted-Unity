@@ -66,7 +66,12 @@ public class CharacterPlayer2D : Character2D
 
     void OnJump(InputAction.CallbackContext ctx)
 	{
-		if (characterController.onGround) movement.y = jumpForce;
+		if (characterController.onGround) {
+            movement.y = jumpForce;
+            animator.SetTrigger("Jump");
+            animator.SetBool("inAir", true);
+        } 
+		
 	}
 
 	IEnumerator PunchCooldownCR()
