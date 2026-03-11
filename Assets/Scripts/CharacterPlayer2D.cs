@@ -1,18 +1,30 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
-public class CharacterPlayer2D : Character2D
+public class CharacterPlayer2D : Character2D, IDamagable
 {
 	[SerializeField, Range(0, 20)] float jumpForce = 12;
 
 	private Vector2 inputMove = Vector2.zero;
 	private PlayerInputSystem_Actions inputActions;
 
-	protected override void Awake()
+    [SerializeField] float maxHealth = 100.0f;
+    [SerializeField] Slider healthSlider;
+
+    [SerializeField] GameObject leftDamager;
+    [SerializeField] GameObject rightDamager;
+
+	private bool stunned = false;
+
+
+    protected override void Awake()
 	{
 		base.Awake();
+		//get character part that contains the flip code???
 		inputActions = new PlayerInputSystem_Actions();
+		health = maxHealth;
 	}
 
 	void OnEnable()
@@ -39,8 +51,22 @@ public class CharacterPlayer2D : Character2D
 
 	private void Update()
 	{
-		animator.SetBool("OnGround", characterController.onGround);
-	}
+		animator.SetBool("InAir", !characterController.onGround);
+		if (characterController.onGround)
+		{
+			animator.ResetTrigger("Jump");
+		}
+        healthSlider.value = health / maxHealth;
+
+		if (stunned)
+		{
+			//set stun bool
+			inputActions.Disable();
+			//startcoroutine(stunCR()); set stun back to false
+
+		}
+
+    }
 
 	protected override void FixedUpdate()
 	{
@@ -60,6 +86,7 @@ public class CharacterPlayer2D : Character2D
 	void OnAttack(InputAction.CallbackContext ctx)
 	{
 		animator.SetTrigger("Punch");
+		OnAttackHitBox();
 		StartCoroutine(PunchCooldownCR());
 
     }
@@ -69,22 +96,44 @@ public class CharacterPlayer2D : Character2D
 		if (characterController.onGround) {
             movement.y = jumpForce;
             animator.SetTrigger("Jump");
-            animator.SetBool("inAir", true);
+            animator.SetBool("InAir", true);
         } 
 		
 	}
 
 	IEnumerator PunchCooldownCR()
 	{
-		yield return new WaitForSeconds(2.5f);
+		yield return new WaitForSeconds(3f);
         animator.ResetTrigger("Punch");
 
         //make a bool to hold the combo
     }
     IEnumerator KickCooldownCR()
 	{
-		yield return new WaitForSeconds(2.5f);
+		yield return new WaitForSeconds(3f);
 		animator.ResetTrigger("Kick");
 	}
 
+    public void OnDamage(float damage)
+    {
+        health -= damage;
+		Mathf.Clamp(health, 0f, maxHealth);
+		if (health <= 0f)
+		{
+			//Die
+		}
+		stunned = true;
+    }
+
+	public void OnAttackHitBox()
+	{
+		if(facing == eFace.Left)
+		{
+			leftDamager.SetActive(true);
+		}
+		if(facing == eFace.Right)
+		{
+			rightDamager.SetActive(true);
+		}
+	}
 }
