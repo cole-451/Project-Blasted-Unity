@@ -307,6 +307,7 @@ GameObject:
   - component: {fileID: 283007276}
   - component: {fileID: 283007279}
   - component: {fileID: 283007278}
+  - component: {fileID: 283007280}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -414,7 +415,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &283007277
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -512,6 +513,22 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &283007280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283007272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321aaee8fe8e384469a730f8ae73a69a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  maxHealth: 100
+  healthSlider: {fileID: 0}
+  leftDamager: {fileID: 0}
+  rightDamager: {fileID: 0}
 --- !u!1 &339259798
 GameObject:
   m_ObjectHideFlags: 0
