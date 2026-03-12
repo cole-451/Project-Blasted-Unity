@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7612844675174720601}
   - component: {fileID: 5632675831552037803}
   - component: {fileID: 136401518484784572}
+  - component: {fileID: 3427212933707962745}
+  - component: {fileID: 5105900751277903110}
   m_Layer: 0
   m_Name: DamagerRight
   m_TagString: Player
@@ -99,13 +101,64 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1883279637685312406}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 293e27a2b285c8741872b9ecab31aaf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damager
   filterTag: Enemy
   damage: 25
+--- !u!58 &3427212933707962745
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883279637685312406}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
+--- !u!114 &5105900751277903110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883279637685312406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d82ef9b6d2b080b409bac134c8c841fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HitBox
+  filterTag: Enemy
+  damage: 25
+  activeTime: 0.1
 --- !u!1 &5038083156865971957
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,8 +475,8 @@ MonoBehaviour:
   jumpForce: 20
   maxHealth: 100
   healthSlider: {fileID: 0}
-  leftDamager: {fileID: 7871575491466723490}
-  rightDamager: {fileID: 136401518484784572}
+  leftDamager: {fileID: 0}
+  rightDamager: {fileID: 0}
 --- !u!70 &8882789625305269669
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -489,6 +542,8 @@ GameObject:
   - component: {fileID: 109415997924801836}
   - component: {fileID: 6382816606381650650}
   - component: {fileID: 7871575491466723490}
+  - component: {fileID: 778816715043322844}
+  - component: {fileID: 1541692762700179249}
   m_Layer: 0
   m_Name: DamagerLeft
   m_TagString: Player
@@ -577,10 +632,61 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5541032537188903552}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 293e27a2b285c8741872b9ecab31aaf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Damager
   filterTag: Enemy
   damage: 25
+--- !u!58 &778816715043322844
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5541032537188903552}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
+--- !u!114 &1541692762700179249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5541032537188903552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d82ef9b6d2b080b409bac134c8c841fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HitBox
+  filterTag: Enemy
+  damage: 25
+  activeTime: 0.1

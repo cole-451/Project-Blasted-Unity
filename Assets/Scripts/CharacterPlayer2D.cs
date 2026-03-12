@@ -29,6 +29,9 @@ public class CharacterPlayer2D : Character2D, IDamagable
 
 	void OnEnable()
 	{
+		//leftDamager.SetActive(false);
+		//rightDamager.SetActive(false);// for some reason this stops the inputactions
+
 		inputActions.Enable();
 
 		inputActions.Player.Move.performed += OnMove;
@@ -105,6 +108,8 @@ public class CharacterPlayer2D : Character2D, IDamagable
 	{
 		yield return new WaitForSeconds(3f);
         animator.ResetTrigger("Punch");
+		leftDamager.SetActive(false);
+		rightDamager.SetActive(false);
 
         //make a bool to hold the combo
     }
