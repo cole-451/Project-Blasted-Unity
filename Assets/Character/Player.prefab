@@ -475,8 +475,8 @@ MonoBehaviour:
   jumpForce: 20
   maxHealth: 100
   healthSlider: {fileID: 0}
-  leftDamager: {fileID: 0}
-  rightDamager: {fileID: 0}
+  leftDamager: {fileID: 5541032537188903552}
+  rightDamager: {fileID: 1883279637685312406}
 --- !u!70 &8882789625305269669
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

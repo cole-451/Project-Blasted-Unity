@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: 2e8f54260c4414a4cbc08c56dc79d9fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8807679871262237085
+    second: Zombie_Sprite_Sheet_Upscaled_0
+  - first:
+      213: 993972091894757067
+    second: Zombie_Sprite_Sheet_Upscaled_1
+  - first:
+      213: -2990210014257892389
+    second: Zombie_Sprite_Sheet_Upscaled_2
+  - first:
+      213: 7679400228908720254
+    second: Zombie_Sprite_Sheet_Upscaled_3
+  - first:
+      213: 7172014377837487903
+    second: Zombie_Sprite_Sheet_Upscaled_4
+  - first:
+      213: 1061363702403346292
+    second: Zombie_Sprite_Sheet_Upscaled_5
+  - first:
+      213: 3380264135127882799
+    second: Zombie_Sprite_Sheet_Upscaled_6
+  - first:
+      213: 3966458268030059623
+    second: Zombie_Sprite_Sheet_Upscaled_7
+  - first:
+      213: 7290692249241765228
+    second: Zombie_Sprite_Sheet_Upscaled_8
+  - first:
+      213: 861535444989261339
+    second: Zombie_Sprite_Sheet_Upscaled_9
+  - first:
+      213: -7264924035636542411
+    second: Zombie_Sprite_Sheet_Upscaled_10
+  - first:
+      213: -7469433550324189803
+    second: Zombie_Sprite_Sheet_Upscaled_11
+  - first:
+      213: 98310274702842880
+    second: Zombie_Sprite_Sheet_Upscaled_12
+  - first:
+      213: 6242701284140891799
+    second: Zombie_Sprite_Sheet_Upscaled_13
+  - first:
+      213: 1964124145192660240
+    second: Zombie_Sprite_Sheet_Upscaled_14
+  - first:
+      213: 1757463838443564107
+    second: Zombie_Sprite_Sheet_Upscaled_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Zombie_Sprite_Sheet_Upscaled_0
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 4591
+        width: 786
+        height: 2213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e5e0a72d5d4c580800000000000000
+      internalID: -8807679871262237085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Sprite_Sheet_Upscaled_1
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 4591
+        width: 730
+        height: 2158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6f90ee95c4bcd00800000000000000
+      internalID: 993972091894757067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Sprite_Sheet_Upscaled_2
+      rect:
+        serializedVersion: 2
+        x: 5487
+        y: 4591
+        width: 786
+        height: 2213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3b758b5d3a086d0800000000000000
+      internalID: -2990210014257892389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Sprite_Sheet_Upscaled_3
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 2323
+        width: 1206
+        height: 2130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70682c22d5b29a60800000000000000
+      internalID: 7679400228908720254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Sprite_Sheet_Upscaled_4
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 2323
+        width: 1430
+        height: 2074
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f176ff2e31d188360800000000000000
+      internalID: 7172014377837487903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Sprite_Sheet_Upscaled_5
+      rect:
+        serializedVersion: 2
+        x: 5235
+        y: 2323
+        width: 1374
+        height: 2102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47fae3bf9a8babe00800000000000000
+      internalID: 1061363702403346292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Sprite_Sheet_Upscaled_6
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 27
+        width: 982
+        height: 2186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c5a4d425c19ee20800000000000000
+      internalID: 3380264135127882799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Sprite_Sheet_Upscaled_14
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 419
+        width: 2242
+        height: 1778
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01de9f0f088f14b10800000000000000
+      internalID: 1964124145192660240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Sprite_Sheet_Upscaled_15
+      rect:
+        serializedVersion: 2
+        x: 4759
+        y: 27
+        width: 2326
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ce504bc04c36810800000000000000
+      internalID: 1757463838443564107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 24e547bc791468347ae02263ec1bf1b1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Zombie_Sprite_Sheet_Upscaled_0: -8807679871262237085
+      Zombie_Sprite_Sheet_Upscaled_1: 993972091894757067
+      Zombie_Sprite_Sheet_Upscaled_10: -7264924035636542411
+      Zombie_Sprite_Sheet_Upscaled_11: -7469433550324189803
+      Zombie_Sprite_Sheet_Upscaled_12: 98310274702842880
+      Zombie_Sprite_Sheet_Upscaled_13: 6242701284140891799
+      Zombie_Sprite_Sheet_Upscaled_14: 1964124145192660240
+      Zombie_Sprite_Sheet_Upscaled_15: 1757463838443564107
+      Zombie_Sprite_Sheet_Upscaled_2: -2990210014257892389
+      Zombie_Sprite_Sheet_Upscaled_3: 7679400228908720254
+      Zombie_Sprite_Sheet_Upscaled_4: 7172014377837487903
+      Zombie_Sprite_Sheet_Upscaled_5: 1061363702403346292
+      Zombie_Sprite_Sheet_Upscaled_6: 3380264135127882799
+      Zombie_Sprite_Sheet_Upscaled_7: 3966458268030059623
+      Zombie_Sprite_Sheet_Upscaled_8: 7290692249241765228
+      Zombie_Sprite_Sheet_Upscaled_9: 861535444989261339
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

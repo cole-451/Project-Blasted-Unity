@@ -29,8 +29,8 @@ public class CharacterPlayer2D : Character2D, IDamagable
 
 	void OnEnable()
 	{
-		//leftDamager.SetActive(false);
-		//rightDamager.SetActive(false);// for some reason this stops the inputactions
+		leftDamager.SetActive(false);
+		rightDamager.SetActive(false);// for some reason this stops the inputactions
 
 		inputActions.Enable();
 
