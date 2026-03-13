@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
@@ -5,7 +6,9 @@ using UnityEngine.SocialPlatforms.Impl;
 public class GameManager : MonoBehaviour
 {
 	static GameManager instance;
-	public static GameManager Instance 
+
+    [SerializeField] GameObject titlePanel;
+    public static GameManager Instance 
 	{ 
 		get 
 		{
@@ -17,12 +20,27 @@ public class GameManager : MonoBehaviour
 
 	private int score;
 
-	void Awake()
+    private void Start()
+    {
+        Time.timeScale = 0.0f;
+
+    }
+
+    void Awake()
 	{
 		instance = this;
+		//titlePanel.SetActive(true);
 	}
 
-	void Update()
+    public void OnGameStart()
+    {
+        titlePanel.SetActive(false);
+        print("I am here.");
+        Time.timeScale = 1.0f;
+
+    }
+
+    void Update()
 	{
 		//scoreText.text = score.ToString("0000");
 	}

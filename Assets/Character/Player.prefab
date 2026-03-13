@@ -157,7 +157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HitBox
   filterTag: Enemy
-  damage: 25
+  damage: 2
   activeTime: 0.1
 --- !u!1 &5038083156865971957
 GameObject:
@@ -688,5 +688,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HitBox
   filterTag: Enemy
-  damage: 25
+  damage: 2
   activeTime: 0.1

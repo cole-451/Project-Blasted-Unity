@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -23,7 +24,8 @@ public class Enemy : Character2D, IDamagable
         if (health <= 0f)
         {
             //Die
-            Destroy(gameObject); //temp for now, will switch to the dead sprite later.
+            animator.SetTrigger("Death");
+            Destroy(gameObject, 5f); //temp for now, will switch to the dead sprite later.
         }
         stunned = true;
         Debug.Log($"ow! i am at {health} health!");
@@ -45,35 +47,59 @@ public class Enemy : Character2D, IDamagable
     private void Update()
     {
         healthSlider.value = health / maxHealth;
+        if (stunned)
+        {
+            transform.position = gameObject.transform.position;
+            StartCoroutine(StunCR());
+        }
+        if (Vector2.Distance(transform.position, player.transform.position) > 3f && !stunned)
+        {
+            //walk to player
+            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+        }
+        if(Vector2.Distance(transform.position, player.transform.position) <= 3f &&!stunned)
+        {
+            StartCoroutine(WaitToPunchCR());
+
+            OnAttack();
+        }
     }
 
     protected override void FixedUpdate()
     {
-        var distance = transform.position.x - player.transform.position.x; // maybe something i can do with this?
         movement.x = 1.0f * speed;
         animator.SetFloat("Speed", Mathf.Abs(movement.x));
-        if (Mathf.Abs(movement.x) > 0.1f) facing = (movement.x > 0) ? eFace.Right : eFace.Left;
-        if(distance < 0)
-        {
-            // move left torwards player
-        }
-        else
-        {
-            //move right torwards player
-        }
-
+        if (Mathf.Abs(movement.x) > 0.1f) facing = (movement.x > 0) ? eFace.Left : eFace.Right;
             base.FixedUpdate();
     }
 
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void OnAttack()
     {
+        if (stunned) return;
+        animator.SetTrigger("Punch");
+        OnAttackHitBox();
+        StartCoroutine(PunchCooldownCR());
+    }
+
+    IEnumerator PunchCooldownCR()
+    {
+        yield return new WaitForSeconds(3.0f);
+        animator.ResetTrigger("Punch");
 
     }
 
-    public void OnAttack()
+    IEnumerator StunCR()
     {
+        yield return new WaitForSeconds(3f);
+        animator.ResetTrigger("Hit");
 
+
+
+    }
+    IEnumerator WaitToPunchCR()
+    {
+        yield return new WaitForSeconds(1.5f);
     }
 
     public void OnAttackHitBox()

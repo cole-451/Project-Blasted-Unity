@@ -12,11 +12,13 @@ public class CharacterPlayer2D : Character2D, IDamagable
 
     [SerializeField] float maxHealth = 100.0f;
     [SerializeField] Slider healthSlider;
+	[SerializeField] AudioClip punchSound;
+
+	int punchCount = 0;
 
     [SerializeField] GameObject leftDamager;
     [SerializeField] GameObject rightDamager;
 
-	private bool stunned = false;
 
 
     protected override void Awake()
@@ -54,6 +56,7 @@ public class CharacterPlayer2D : Character2D, IDamagable
 
 	private void Update()
 	{
+		animator.SetFloat("Health", health);
 		animator.SetBool("InAir", !characterController.onGround);
 		if (characterController.onGround)
 		{
@@ -61,13 +64,8 @@ public class CharacterPlayer2D : Character2D, IDamagable
 		}
         healthSlider.value = health / maxHealth;
 
-		if (stunned)
-		{
-			//set stun bool
-			inputActions.Disable();
-			//startcoroutine(stunCR()); set stun back to false
-
-		}
+		animator.SetInteger("HitCount", punchCount);
+		
 
     }
 
@@ -106,10 +104,11 @@ public class CharacterPlayer2D : Character2D, IDamagable
 
 	IEnumerator PunchCooldownCR()
 	{
-		yield return new WaitForSeconds(3f);
-        animator.ResetTrigger("Punch");
+		yield return new WaitForSeconds(0.3f);
 		leftDamager.SetActive(false);
 		rightDamager.SetActive(false);
+		yield return new WaitForSeconds(3f);
+        animator.ResetTrigger("Punch");
 
         //make a bool to hold the combo
     }
@@ -119,15 +118,34 @@ public class CharacterPlayer2D : Character2D, IDamagable
 		animator.ResetTrigger("Kick");
 	}
 
+	IEnumerator StunCR()
+	{
+		yield return new WaitForSeconds(3f);
+		punchCount = 0;
+		animator.ResetTrigger("Hit");
+	}
+
     public void OnDamage(float damage)
     {
+		
         health -= damage;
+		punchCount++;
 		Mathf.Clamp(health, 0f, maxHealth);
-		if (health <= 0f)
+
+		animator.SetTrigger("Hit");
+		//stun player
+        inputActions.Disable();
+
+		if(health <=0)
 		{
-			//Die
+			animator.SetTrigger("Death");
+			inputActions.Disable();
+			//get launched
+
 		}
-		stunned = true;
+        StartCoroutine(StunCR()); 
+		
+
     }
 
 	public void OnAttackHitBox()
